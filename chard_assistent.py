@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import openai
 
 # Define your OpenAI API key
-openai.api_key = 'my-api-key-here'
+openai.api_key = '-------------------------------my-api-key-here----------------'
 
 # Fetch YTD stock data for NVDA and TSLA
 nvda = yf.download('NVDA', start='2023-01-01')
